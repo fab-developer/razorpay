@@ -29,7 +29,7 @@ class _RazorpayTestAppState extends State<RazorpayTestApp> {
 
   void openCheckout() async {
     var options = {
-      'key': 'rzp_test_RXEfPSF821beBuRTR', // <-- your test key ID here
+      'key': 'rzp_test_RXEfPSF821beBuRTR', //added riggedd key for github
       'amount': 50000, // in paise = ₹500
       'name': 'Demo App',
       'description': 'Trial Payment',
